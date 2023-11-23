@@ -1,0 +1,66 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin: 0;
+    background-position: center;
+    z-index: -1;
+    background-color: #000;
+}
+      
+  
+  .stopwatch {
+    margin-top: 200px;
+    background-color: #065a9f;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    display: inline-block;
+  }
+  
+  h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .display {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .display #display {
+    font-size: 48px;
+    margin-right: 20px;
+  }
+  
+  .controls {
+    margin-bottom: 20px;
+  }
+  
+  button {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+  }
+  
+  #startButton {
+    background-color: #2ecc71;
+    color: #fff;
+  }
+  
+  #pauseButton {
+    background-color: #e74c3c;
+    color: #fff;
+  }
+  
+  #resetButton {
+    background-color: #f39c12;
+    color: #fff;
+  }
+  
